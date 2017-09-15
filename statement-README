@@ -1,0 +1,25 @@
+If we have to include a statement with script running. 
+
+name = sys.argv[1]     ####  this function help to enter variable. i.e " script.py talha 10"
+
+age = int(sys.argv[2])
+age = int(sys.argv[2])
+
+##Full example of script###
+#!/usr/bin/env python
+# Years till 100
+import sys
+
+name = sys.argv[1]
+age = int(sys.argv[2])
+
+print 'Hello', name  ,  'your age is' , age  , 'years'
+################################################
+
+save this script in script.py and run with this command 
+python script.py Talha 49
+
+results should be, 
+
+python age_name.py talha 49
+Hello talha your age is 49 years
