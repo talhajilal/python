@@ -1,0 +1,64 @@
+How to generate if and else statement with variables.
+Here we will learn two paramenters for python. 
+
+inputPassword = raw_input('Please Enter Password: ')   #### This raw_input function allow your script to obtain information before running this script. 
+
+If you have access or your value match with secret , script will take you to next step. 
+
+validPassword = 'secret' #this is our password.
+
+inputPassword = raw_input('Please Enter Password: ')
+
+if inputPassword == validPassword:
+    print 'You have access!'
+    
+    
+    Part two , 
+    If you don't have access script will execute the following steps and exit without next step.
+else:
+    print 'Access denied!'
+    sys.exit(0)
+
+print 'Welcome!'
+############# Sample Script Starts from here ################
+
+# This is some secure program that uses security.
+import sys
+
+validPassword = 'secret' #this is our password.
+
+inputPassword = raw_input('Please Enter Password: ')
+
+if inputPassword == validPassword:
+    print 'You have access!'
+else:
+    print 'Access denied!'
+    sys.exit(0)
+
+print 'Welcome!'
+b = 10
+a = raw_input('Please enter a valid value----')
+b = raw_input('Please a value for b-----')
+b = a
+if a == b:
+   print 'you have value'
+else:
+    print 'no value'
+    sys.exit(0)
+print 'Welcome!'
+
+####################### O###############################
+
+Run this script with the following command
+
+#python if_else.py
+Out put and provide some information. 
+
+Please Enter Password: secret
+You have access!
+Welcome!
+Please enter a valid value---- 10
+Please a value for b-----11
+you have value
+Welcome!
+You have new mail in /var/spool/mail/root
