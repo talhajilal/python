@@ -13,4 +13,4 @@ git init .
 git add . 
 git commit -m "$msg"
 #git push  
-git push https://talhajilal@github.com/talhajilal/aws.git
+git push https://talhajilal@github.com/talhajilal/python.git
