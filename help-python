@@ -15,7 +15,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 Step 4 
 Not type command help statment with the follwing string. 
 
-
+##########################################################################################################
 
 [root@python ~]# python
 Python 2.6.6 (r266:84292, Aug 18 2016, 15:13:37)
@@ -55,3 +55,16 @@ sequence is empty, it will not have been assigned to at all by the
 loop.  Hint: the built-in function ``range()`` returns a sequence of
 integers suitable to emulate the effect of Pascal's ``for i := a to b
 do``; e.g., ``range(3)`` returns the list ``[0, 1, 2]``.
+
+
+
+[root@python ~]# python
+Python 2.6.6 (r266:84292, Aug 18 2016, 15:13:37)
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-17)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> help('for')
+
+Related help topics: break, continue, while
+
+>>> help('sys')
+
